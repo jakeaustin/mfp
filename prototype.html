@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<title>GoBike!</title>
+		<link rel='stylesheet' type='text/css' href='stylesheet.css'/>
+		 <script src="jquery-1.9.1.min.js"></script>
+		<script type='text/javascript' src='script.js'></script>
+	</head>	
+
+<body>
+<div id ="homeScreen" class ="screen">
+    <div id = "header"> </div>
+    <div id = "GoBike">Go Bike
+    </div>   
+</div>
+
+
+<div id = "createRoute" class= "screen">
+    <h1 class = "title"> Go Bike </h1>
+    <div id ="createCancel" class = "cancel"></div>
+
+    <br>
+    <h3 id = "statButton" class = "title">Statistics</h3>
+    <br><br>
+    <form class = "title">
+        <input type="text" value="Start">
+    <br><br>
+        <input type ="text" value="Finish">
+    <br><br>
+        <div id = "goButton">GO!</div>
+    </form>
+
+    <div id = "createConfirm" class = "confirm">
+	    <h2 class = "title"> Quit? </h2>
+	    <div id = "createNo">No</div>
+	    <div id = "createYes">Yes</div>
+    </div>
+
+</div>
+
+
+<div id = "statList" class="screen">
+    <h1 class = "title"> Go Bike </h1>
+    <form>
+        <input type="checkbox">  Top Speed
+            <br>
+        <input type="checkbox">  Current Speed<br>
+        <input type="checkbox">  Average Speed<br>
+        
+        <input type="checkbox">  Distance Travelled<br>
+        <input type="checkbox">  Distance Remaining<br>
+        <input type="checkbox">  Altitude <br>
+        <input type="checkbox">  Heart Rate<br>
+        <input type="checkbox">  Calories Burned<br>
+    </form>
+    <div id = "back" class = "title"><p>Back</p></div>
+</div>
+
+
+<div id = "map" class = "screen">
+	<h1>Go Bike</h1>
+    <div id = "mapCancel" class = "cancel"></div>
+    
+    <div id = "mapConfirm" class = "confirm">
+	    <h2 class = "title"> Quit? </h2>
+	    <div id = "mapNo">No</div>
+	    <div id = "mapYes">Yes</div>
+    </div>
+</div>
+
+</body>
+</html>

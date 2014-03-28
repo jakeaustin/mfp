@@ -1,0 +1,103 @@
+HTML: 
+
+homescreen
+<div id = "background">
+    <div id = "screen">
+        <div id = "header"> </div>
+        <div id = "GoBike">
+        </div>   
+    </div>
+</div>
+
+goBike home ---- put a little picture where keyboard enters
+<div id = "createRoute">
+
+<h1 class = "title"> Go Bike </h1><div class = "cancel"></div>
+<p class = "title">Statistics</p>
+<form>
+    <input type="text" value="Start">
+        <br>
+    <input type ="text" value="Finish">
+        <br>
+        <button>GO!</button>
+        </form>
+</div>
+
+STATLIST
+<div id = "statList">
+    <h1 class = "title"> Go Bike </h1>
+    <form>
+        <input type="checkbox">  Top Speed
+            <br>
+        <input type="checkbox">  Current Speed<br>
+        <input type="checkbox">  Average Speed<br>
+        
+        <input type="checkbox">  Distance Travelled<br>
+        <input type="checkbox">  Distance Remaining<br>
+        <input type="checkbox">  Altitude <br>
+        <input type="checkbox">  Heart Rate<br>
+        <input type="checkbox">  Calories Burned<br>
+    </form>
+</div>
+
+MAP -- background should be photoshopped app
+<div id = "map">
+    <h1> title </h1>
+    <div class = "cancel"></div>
+</div>
+
+
+CSS: screen background is screen-cap of empty iphone home
+	-goBike will have a picture / title
+
+#screen {
+    height: 568px;
+    width: 320px;
+    background-color: black;
+}
+
+#GoBike {
+    
+    height: 76px;
+    width: 76px;
+    background-color: green;
+    border-radius: 10px;
+    margin-top: 5px;
+    margin-left: 5px;
+}
+
+#createRoute {
+    height: 568px;
+    width: 320px;
+    background-color: navy;
+}
+
+.title {
+    text-align:center;
+}
+.cancel {
+    float:right;
+    height: 10px;
+    width: 10px;
+    border-radius: 6px;
+    background-color: red;
+    margin-right: 3px;
+    margin-top: -47px;
+}
+
+#statList {
+    height: 568px;
+    width: 320px;
+    background-color: yellow;
+    
+}
+
+
+
+write js 
+1) Display / Hide screens based on clicks
+2) check boxes (default checks)
+3) get bike icon
+4) set backgrounds
+5) Go button --- must have entered text in both fields
+	--color change
