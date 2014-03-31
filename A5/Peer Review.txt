@@ -1,0 +1,8 @@
+Jake Austin
+jausti01
+
+Steve Lessard
+slessa01
+
+
+Steve and I spent an hour or so deciding what kind of changes we wanted to make and incorporating feedback from the last assignment. In one session, we pair-programmed to HTML and CSS to give our app its structure, and in another 3 hour session we added the Jquery functionality.

@@ -6,6 +6,7 @@
 		<link rel='stylesheet' type='text/css' href='stylesheet.css'/>
 		 <script src="jquery-1.9.1.min.js"></script>
 		<script type='text/javascript' src='script.js'></script>
+		<script type='text/javascript' src='webticker.js'></script>
 	</head>	
 
 <body>
@@ -54,14 +55,23 @@
         <input type="checkbox">  Heart Rate<br>
         <input type="checkbox">  Calories Burned<br>
     </form>
-    <div id = "back" class = "title"><p>Back</p></div>
+    <div id = "backOne" class = "title"><p>Back</p></div>
+    <div id = "backTwo" class = "title"><p>Back</p></div>
 </div>
 
 
 <div id = "map" class = "screen">
 	<h1>Go Bike</h1>
     <div id = "mapCancel" class = "cancel"></div>
-    <div id = "statBar">Heart Rate: 100    Speed: 15mph   Calories Burned</div>
+    <div id = "statBar">
+    	<ul>
+		<li>Heart Rate: 100bpm</li>
+		<li>Altitude: 80ft</li>
+		<li>Distance Travelled: 0 meters</li>
+		<li>Top Speed: 15mph</li>
+		<li>Speed: 0mph</li>
+	</ul>
+    </div>
     <div id = "mapConfirm" class = "confirm">
 	    <h2 class = "title"> Quit? </h2>
 	    <div id = "mapNo">No</div>

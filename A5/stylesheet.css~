@@ -24,8 +24,19 @@
 	background-color: black;
 	color:red;
 	font-weight: bold;
-	margin-top: 55px;
+	margin-top: 65px;
 }
+
+#ticker {
+	height: 20px;
+	overflow: hidden;
+}
+
+#ticker li {
+	height: 20px;
+	text-align: center;
+}
+
 #createRoute {
     background-color: navy;
 }
